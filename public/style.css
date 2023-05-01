@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: lightgreen;
+  padding: 18px;
+  font-size: 20px;
+}
+
+.messageBox {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.add-new-heading {
+  text-align: center;
+}
+
+.add-new-post-form {
+  width: 40%;
+  margin: auto;
+  border: 1px solid #000;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.add-new-input {
+  border: 1px solid #ccc;
+  outline: none;
+  padding: 10px;
+  border-radius: 8px;
+  width: calc(90% - 20px);
+  margin-bottom: 10px;
+}
+.Welcome{
+  font-size: 120px;
+  text-align: center;
+  padding: 50px;
+  padding-top: 60px;
+}
+.logForm{
+  display: flex;
+  justify-content: center;
+}
