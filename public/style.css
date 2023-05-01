@@ -44,4 +44,31 @@ nav {
 .logForm{
   display: flex;
   justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-size: 40px;
+}
+input{
+  margin: 10px;
+  height: 30px;
+  width: 200px;
+}
+.logText{
+  text-align: center;
+}
+button{
+  width: 200px;
+  length: auto;
+  
+}
+.logg{
+margin-left: 300px;
+margin-right: 150px;
+}
+.reg{
+  margin-left: 300px;
+  margin-right: 150px;
+}
+.post{
+  padding: 10px;
 }

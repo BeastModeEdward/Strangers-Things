@@ -70,9 +70,9 @@ const AccountForm = ({ setToken, setUser }) => {
           {actionType === 'register' ? 'Register' : 'Login'}
         </button>
         {actionType === 'register' ? (
-          <Link to="/profile/login">Have an Account? Sign In</Link>
+          <Link to="/profile/login" className="logg">Have an Account? Sign In</Link>
         ) : (
-          <Link to="/profile/register">Need an Account? Register Here!</Link>
+          <Link to="/profile/register" className="reg">Need an Account? Register Here!</Link>
         )}
       </form>
     </>

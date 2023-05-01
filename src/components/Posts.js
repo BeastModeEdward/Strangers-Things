@@ -54,7 +54,7 @@ const Posts = () => {
         />
         {localStorage.getItem('token') && <Link to="/posts/add">ADD POST</Link>}
       </h1>
-      <div>
+      <div className='post'>
         {posts ? (
           posts.map((post, idx) => (
             <Post
